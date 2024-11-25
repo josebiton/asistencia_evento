@@ -1,0 +1,16 @@
+{
+    "name": "tpp/asistencia_eventos",
+    "autoload": {
+        "psr-4": {
+            "Tpp\\AsistenciaEventos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ades"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^3.3"
+    }
+}
