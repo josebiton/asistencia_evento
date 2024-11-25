@@ -20,7 +20,7 @@ pipeline {
         stage('Compilación de Docker') {
             steps {
                 echo 'Construyendo imagen Docker...'
-                sh 'docker build -t asistencia_evento .'
+                sh 'docker build -t asistencia .'
             }
         }
 
