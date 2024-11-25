@@ -1,0 +1,7 @@
+services:
+   appphp:
+    image: asistencia
+    container_name: asistenciav1
+    #restart: always
+    ports:
+      - 80:80
