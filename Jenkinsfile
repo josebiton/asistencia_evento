@@ -5,7 +5,7 @@ pipeline {
         stage('Preparación') {
             steps {
                 echo 'Clonando el repositorio desde GitHub...'
-                git branch: 'main', url: 'https://github.com/josebiton/Test_ShopMarket.git'
+                git branch: 'main', url: 'https://github.com/josebiton/asistencia_evento.git'
                 echo 'Repositorio clonado con éxito.'
             }
         }
